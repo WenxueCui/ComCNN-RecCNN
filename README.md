@@ -36,7 +36,6 @@ The first param is start epoch for testing model
 The second param is end epoch for testing model 
 ```
 
-
 ## Experimental Results
 
 * ### Subjective results
