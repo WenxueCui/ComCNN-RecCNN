@@ -3,7 +3,7 @@ The code of paper "An End-to-End Compression Framework Based on Convolutional Ne
 
 ## Framework
 
-![image](https://github.com/WenxueCui/LapCSNet/raw/master/images/framework.jpg)
+![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/framework.jpg)
 
 ## Requirements
 
@@ -41,11 +41,13 @@ The second param is end epoch for testing model
 
 * ### Subjective results
 
-![image](https://github.com/WenxueCui/LapCSNet/raw/master/images/results.jpg)
+![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/results.jpg)
 
 * ### Objective results
 
-![image](https://github.com/WenxueCui/LapCSNet/raw/master/images/table.jpg)
+![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/table1.jpg)
+
+![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/table1.jpg)
 
 ## Additional instructions
 
