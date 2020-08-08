@@ -47,26 +47,13 @@ The second param is end epoch for testing model
 
 ![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/table1.jpg)
 
-![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/table1.jpg)
+![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/table2.jpg)
 
 ## Additional instructions
 
 * For training data, you can choose any dataset by yourself.
 * When subrate<=0.25, the laplacian structure can be used.
 * If you have any problem, please email wenxuecui@stu.hit.edu.cn
-
-## Citation
-
-* If you find the code is useful in your research, please cite:
-
-```
-@article{Cui2018An,
-  title={An efficient deep convolutional laplacian pyramid architecture for CS reconstruction at low sampling ratios},
-  journal={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  author={Cui, Wenxue and Xu, Heyao and Gao, Xinwei and Zhang, Shengping and Jiang, Feng and Zhao, Debin},
-  year={2018},
-}
-```
 
 ## Acknowledgments
 
