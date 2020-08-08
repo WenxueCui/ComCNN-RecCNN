@@ -53,4 +53,4 @@ Through the training stage, the newly produced model of ComCNN and RecCNN are ob
 
 ## Acknowledgments
 
-This code is built based on the repo https://github.com/phoenix104104/LapSRN
+This code is built based on the repo https://github.com/cszn/DnCNN
