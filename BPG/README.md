@@ -1,0 +1,1 @@
+The BPG image compresser.
