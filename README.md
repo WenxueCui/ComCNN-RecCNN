@@ -16,7 +16,7 @@ The code of paper "An End-to-End Compression Framework Based on Convolutional Ne
 
 ### Training
 
-We provide the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCNN_model` and `RecCNN\data\model`.
+We have provided the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCNN_model` and `RecCNN\data\model`.
 
 * Generating the training data of RecCNN model (The pretrained ComCNN is used).
 * Training the RecCNN model, and copying the produced RecCNN model into `ComCNN/RecCNN_model`
@@ -26,6 +26,8 @@ We provide the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCN
 
 
 ### Testing
+
+Through the training stage, the newly produced model of ComCNN and RecCNN are obtained.
 
 * Executing the test code of ComCNN `ComCNN/Demo_Test_Qp_30.m` to produce the compact representation of input image.
 * Executing the test code of RecCNN `RecCNN/Demo_Test_QP_30.m` to output the final result of reconstructed image.
