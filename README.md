@@ -16,25 +16,20 @@ The code of paper "An End-to-End Compression Framework Based on Convolutional Ne
 
 ### Training
 
-* Copying the function in `+dagnn` folder to your `Matconvnet` location `<MatconvNet>\matlab\+dagnn`
-* Preparing the training data. (T91 and BSDS200 are included in our repo)
-* Train the LapCSNet, run the code `train_LapCSN(0.1, 2, 0);`
+We provide the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCNN_model` and `RecCNN\data\model`.
 
-```
-The first param is CS subrate
-The second param is the number of conv layers in each pyramid level
-The third param is gpu setting. (0 is CPU, 1 is GPU)
-```
+* Generating the training data of RecCNN model (The pretrained ComCNN is used).
+* Training the RecCNN model, and copying the produced RecCNN model into `ComCNN/RecCNN_model`
+* Generating the training data of ComCNN model (the newly produced RecCNN model is used).
+* Training the ComCNN model, and copying the produced ComCNN model into `RecCNN\data\model`.
+* Repeat the above four steps for several times until stabilization of the model.
+
 
 ### Testing
 
-* Preparing the testing data. (Set5 and Set14 are included in our repo)
-* Test the LapCSNet, run the code `test_LapCSN_main(100, 200)`
+* Executing the test code of ComCNN `ComCNN/Demo_Test_Qp_30.m` to produce the compact representation of input image.
+* Executing the test code of RecCNN `RecCNN/Demo_Test_QP_30.m` to output the final result of reconstructed image.
 
-```
-The first param is start epoch for testing model
-The second param is end epoch for testing model 
-```
 
 ## Experimental Results
 
