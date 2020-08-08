@@ -48,8 +48,8 @@ Through the training stage, the newly produced model of ComCNN and RecCNN are ob
 ## Additional instructions
 
 * For training data, you can choose any dataset by yourself.
-* When subrate<=0.25, the laplacian structure can be used.
-* If you have any problem, please email wenxuecui@stu.hit.edu.cn
+* The code is implemented in terms of JPEG encoder with Qp=30, you can set the configration as you wish (Different image compresser and different image quality).
+* If you have any problem about this repo, please email wenxuecui@stu.hit.edu.cn
 
 ## Acknowledgments
 
