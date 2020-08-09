@@ -14,20 +14,16 @@ The RecCNN code of paper "An End-to-End Compression Framework Based on Convoluti
 
 ## How to Run
 
-### Training
+### Training RecCNN
 
 We have provided the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCNN_model` and `RecCNN\data\model`.
 
-* Generating the training data of RecCNN model (The pretrained ComCNN is used).
-* Training the RecCNN model, and copying the produced RecCNN model into `ComCNN/RecCNN_model`
-* Generating the training data of ComCNN model (the newly produced RecCNN model is used).
-* Training the ComCNN model, and copying the produced ComCNN model into `RecCNN\data\model`.
-* Repeat the above four steps for several times until stabilization of the model.
+* Generating the training data of RecCNN model (The pretrained ComCNN is used) by running `data/GenerateData_model_64_25_Res_Bnorm_Adam.m`.
+* Training the RecCNN model by running `Demo_Train_model_QP_30.m`, and copying the produced RecCNN model into `ComCNN/RecCNN_model`
 
+### Testing ComCNN and RecCNN
 
-### Testing
-
-Through the training stage, the newly produced model of ComCNN and RecCNN are obtained.
+Through the training stage, the newly produced model of RecCNN is obtained.
 
 * Executing the test code of ComCNN `ComCNN/Demo_Test_Qp_30.m` to produce the compact representation of input image.
 * Executing the test code of RecCNN `RecCNN/Demo_Test_QP_30.m` to output the final result of reconstructed image.
