@@ -48,7 +48,8 @@ Through the training stage, the newly produced model of ComCNN and RecCNN are ob
 ## Additional instructions
 
 * For training data, you can choose any dataset by yourself.
-* The code is implemented in terms of JPEG encoder with Qp=30, you can set the configration as you wish (Different image compresser and different image quality).
+* The code is implemented in terms of JPEG encoder with Qp=30, you can set the configration as you wish.
+* The image compresser `BPG` and `JPEG2000` are provided, you can modify the image compresser by yourself (JPEG is used in my repo). 
 * If you have any problem about this repo, please email wenxuecui@stu.hit.edu.cn
 
 ## Acknowledgments
