@@ -1,7 +1,7 @@
-# ComCNN
+# RecCNN
 The RecCNN code of paper "An End-to-End Compression Framework Based on Convolutional Neural Networks". TCSVT
 
-## Framework
+## Framework of RecCNN
 
 ![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/reccnn.jpg)
 
@@ -16,7 +16,7 @@ The RecCNN code of paper "An End-to-End Compression Framework Based on Convoluti
 
 ### Training RecCNN
 
-We have provided the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCNN_model` and `RecCNN\data\model`.
+We have provided the pretrained model of RecCNN in the folder `ComCNN/RecCNN_model`.
 
 * Generating the training data of RecCNN model (The pretrained ComCNN is used) by running `data/GenerateData_model_64_25_Res_Bnorm_Adam.m`.
 * Training the RecCNN model by running `Demo_Train_model_QP_30.m`, and copying the produced RecCNN model into `ComCNN/RecCNN_model`
