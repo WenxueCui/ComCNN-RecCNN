@@ -31,7 +31,7 @@ Through the training stage, the newly produced model of ComCNN and RecCNN are ob
 
 ## The Visual Effect of Compact Representations
 
-![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/com.jpg)
+![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/compact.jpg)
 
 ## Additional instructions
 
