@@ -18,10 +18,10 @@ The code of paper "An End-to-End Compression Framework Based on Convolutional Ne
 
 We have provided the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCNN_model` and `RecCNN\data\model`.
 
-* Generating the training data of RecCNN model (The pretrained ComCNN is used).
+* Generating the training data of RecCNN model (The pretrained ComCNN or the newly produced ComCNN model is used).
 * Training the RecCNN model, and copying the produced RecCNN model into `ComCNN/RecCNN_model`
-* Generating the training data of ComCNN model (the newly produced RecCNN model is used).
-* Training the ComCNN model, and copying the produced ComCNN model into `RecCNN\data\model`.
+* Generating the training data of ComCNN model.
+* Training the ComCNN model, (the newly produced RecCNN model is used during training process) and copying the produced ComCNN model into `RecCNN\data\model`.
 * Repeat the above four steps for several times until stabilization of the model.
 
 
