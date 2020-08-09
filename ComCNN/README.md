@@ -1,7 +1,7 @@
 # ComCNN
-The ComCNN code of paper "An End-to-End Compression Framework Based on Convolutional Neural Networks". TCSVT
+The ComCNN code of paper "An End-to-End Compression Framework Based on Convolutional Neural Networks". TCSVT2017
 
-## Framework
+## Framework of ComCNN
 
 ![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/comcnn.jpg)
 
@@ -16,22 +16,22 @@ The ComCNN code of paper "An End-to-End Compression Framework Based on Convoluti
 
 ### Training
 
-We have provided the pretrained model of RecCNN and ComCNN in the folder `ComCNN/RecCNN_model` and `RecCNN\data\model`.
+After training stage of RecCNN model, the newly produced RecCNN model is obtained and copied into `ComCNN/RecCNN_model`.
 
-* Generating the training data of RecCNN model (The pretrained ComCNN is used).
-* Training the RecCNN model, and copying the produced RecCNN model into `ComCNN/RecCNN_model`
-* Generating the training data of ComCNN model (the newly produced RecCNN model is used).
-* Training the ComCNN model, and copying the produced ComCNN model into `RecCNN\data\model`.
-* Repeat the above four steps for several times until stabilization of the model.
+* Generating the training data of ComCNN model by running `data/GenerateData_model_64_25_Res_Bnorm_Adam.m`.
+* Training the ComCNN model, during which the newly produced RecCNN model is used, and copying the produced ComCNN model into `RecCNN\data\model`.
 
 
-### Testing
+### Testing ComCNN and RecCNN
 
 Through the training stage, the newly produced model of ComCNN and RecCNN are obtained.
 
 * Executing the test code of ComCNN `ComCNN/Demo_Test_Qp_30.m` to produce the compact representation of input image.
 * Executing the test code of RecCNN `RecCNN/Demo_Test_QP_30.m` to output the final result of reconstructed image.
 
+## The Visual Effect of Compact Representations
+
+![image](https://github.com/WenxueCui/ComCNN-RecCNN/raw/master/images/com.jpg)
 
 ## Additional instructions
 
